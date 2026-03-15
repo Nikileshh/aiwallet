@@ -2,8 +2,8 @@ const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
 
-const pool = require("./backend/config/db");
-const authRoutes = require("./backend/routes/authRoutes");
+const pool = require("./config/db");
+const authRoutes = require("./routes/authRoutes");
 
 const app = express();
 
